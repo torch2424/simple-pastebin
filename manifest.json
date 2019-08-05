@@ -1,13 +1,20 @@
 {
   "name": "Simple Pastebin",
   "version": "1.0.0",
-  "description": "It's literally just a <textarea>, that saves to localStorage. Paste stuff, and it automatically saves as you type/paste.",
+  "description": "It's literally just a <textarea>, that saves to localStorage. Paste stuff, and it automatically saves as you paste/type!",
   "manifest_version": 2,
   "permissions": [
     "storage"
   ],
+  "icons": {
+    "48": "assets/icons/48.png",
+    "512": "assets/icons/512.png"
+  },
   "browser_action": {
     "default_title": "Simple Pastebin",
-    "default_popup": "popup.html"
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "assets/icons/48.png"
+    }
   }
 }

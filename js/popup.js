@@ -41,18 +41,18 @@ const addWalkingGif = () => {
 
   // All of our gif objects
   const runGifObjects = [
-    {src: "assets/linkWalk.gif", isFlipped: false},
-    {src: "assets/marioRun.gif", isFlipped: false},
-    {src: "assets/megamanRun.gif", isFlipped: false},
-    {src: "assets/megamanXRun.gif", isFlipped: false},
-    {src: "assets/pokemonWalk.gif", isFlipped: true},
-    {src: "assets/sonicRun.gif", isFlipped: false},
-    {src: "assets/superMarioWorldRun.gif", isFlipped: false}
+    {src: "linkWalk.gif", isFlipped: false},
+    {src: "marioRun.gif", isFlipped: false},
+    {src: "megamanRun.gif", isFlipped: false},
+    {src: "megamanXRun.gif", isFlipped: false},
+    {src: "pokemonWalk.gif", isFlipped: true},
+    {src: "sonicRun.gif", isFlipped: false},
+    {src: "superMarioWorldRun.gif", isFlipped: false}
   ];
 
   // Add a random walking animation
   const runGifObject = runGifObjects[Math.floor(Math.random() * runGifObjects.length)];
-  image.src = runGifObject.src;
+  image.src = "assets/walks/" + runGifObject.src;
   if (runGifObject.isFlipped) {
     image.classList.add('horizontal-flip');
   }
