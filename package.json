@@ -1,0 +1,22 @@
+{
+  "name": "simple-pastebin",
+  "version": "1.0.0",
+  "description": "It's literally just a <textarea>, that saves to localStorage. Paste stuff, and it automatically saves as you paste/type!",
+  "main": "index.js",
+  "scripts": {
+    "release": "npx bestzip release.zip manifest.json popup.html styles/**/* js/**/* assets/**/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/torch2424/simple-pastebin.git"
+  },
+  "author": "Aaron Turner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/torch2424/simple-pastebin/issues"
+  },
+  "homepage": "https://github.com/torch2424/simple-pastebin#readme",
+  "devDependencies": {
+    "bestzip": "^2.1.4"
+  }
+}

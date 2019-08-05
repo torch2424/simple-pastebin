@@ -1,3 +1,6 @@
+# Project ignore
+release.zip
+
 # Logs
 logs
 *.log
