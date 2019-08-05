@@ -22,7 +22,7 @@ Also, I wanted to see how fast I could a Chrome extension. Including publishing 
 
 Probably not. 🤔 Unless you have the following qualities:
 
-1. You are also tired of going to random websites with random text areas (that don't save to localStorage)
+1. You are also tired of going to random websites with random text areas (that don't save to localStorage).
 2. You happen to really love the GameBoy, and don't mind the questionable CSS colors that remind you of the GameBoy Color.
 3. You think it is really cool when random and fun animations play across the top of your applications.
 
@@ -40,4 +40,4 @@ But, we do have some convience npm scripts for making releases:
 
 [MIT](https://oss.ninja/mit). 📄
 
-However, Images in `assets/walks` are random images I found on the internet for something cool / fun. They are not owned by me, and simply were added to add some fun to a Free and Open Source Chrome Extension. :)
+However, Images in `assets/walks` are random images I found on the internet for something cool / fun. They are not owned by me, and simply were added to add some fun to a Free and Open Source Chrome Extension. 😄
