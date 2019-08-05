@@ -8,6 +8,7 @@
   ],
   "icons": {
     "48": "assets/icons/48.png",
+    "128": "assets/icons/128.png",
     "512": "assets/icons/512.png"
   },
   "browser_action": {
