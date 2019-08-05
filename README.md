@@ -16,9 +16,11 @@ It's literally just a <textarea>, that saves to localStorage. Paste stuff, and i
 
 Because I wanted it, and I got tired of either going to [pastebin](https://pastebin.com/), or [paste.ubuntu.com](https://paste.ubuntu.com/). And plus, I can build random stuff way past my bedtime, I'm and adult! Thank you very mcuh. 😂
 
+Also, I wanted to see how fast I could a Chrome extension. Including publishing it on the store, and having a semi-dope looking Github page. The answer to that is about ~3 hours. ⏱️
+
 ## Should you use this?
 
-Probably not. Unless you have the following qualities:
+Probably not. 🤔 Unless you have the following qualities:
 
 1. You are also tired of going to random websites with random text areas (that don't save to localStorage)
 2. You happen to really love the GameBoy, and don't mind the questionable CSS colors that remind you of the GameBoy Color.
