@@ -33,8 +33,8 @@ There is no build system, this is as vanilla JS as it gets! 🍦
 
 But, we do have some convience npm scripts for making releases:
 
-`npm run deploy` - To run np and simply do a github release.
-`npm run zip` - To make a zip file for the chrome web store.
+* `npm run deploy` - To run np and simply do a github release.
+* `npm run zip` - To make a zip file for the chrome web store.
 
 ## LICENSE
 
