@@ -1,6 +1,6 @@
 {
   "name": "simple-pastebin",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A Chrome Extension that is literally just a <textarea>, that saves to localStorage. Paste stuff, and it automatically saves as you paste/type!",
   "main": "index.js",
   "scripts": {
