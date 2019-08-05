@@ -14,7 +14,16 @@ It's literally just a <textarea>, that saves to localStorage. Paste stuff, and i
 
 ## Motivation
 
-Because I wanted it, and I can build stuff way past my bedtime. Thank you very mcuh. 😂
+Because I wanted it, and I got tired of either going to [pastebin](https://pastebin.com/), or [paste.ubuntu.com](https://paste.ubuntu.com/). And plus, I can build random stuff way past my bedtime, I'm and adult! Thank you very mcuh. 😂
+
+## Should you use this?
+
+Probably not. Unless you have the following qualities:
+
+1. You are also tired of going to random websites with random text areas (that don't save to localStorage)
+2. You happen to really love the GameBoy, and don't mind the questionable CSS colors that remind you of the GameBoy Color.
+3. You think it is really cool when random and fun animations play across the top of your applications.
+
 
 ## Contributing
 
