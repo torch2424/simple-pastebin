@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "deploy": "npx np --no-publish --no-tests",
-    "build": "npx bestzip release.zip manifest.json popup.html styles/**/* js/**/* assets/**/*"
+    "build": "npx bestzip release.zip manifest.json popup.html styles/* styles/**/* js/* js/**/* assets/* assets/**/*"
   },
   "files": [
     "release.zip"
