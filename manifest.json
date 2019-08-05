@@ -1,5 +1,6 @@
 {
   "name": "Simple Pastebin",
+  "short_name": "simple-pastebin",
   "version": "1.0.0",
   "description": "It's literally just a <textarea>, that saves to localStorage. Paste stuff, and it automatically saves as you paste/type!",
   "manifest_version": 2,
