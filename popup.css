@@ -1,0 +1,53 @@
+@import url("normalize.min.css");
+
+:root {
+  --palette-background-color: #fbfea5;
+  --palette-font-color: #000;
+  --palette-highlight-color: #f49493;
+  --palette-border-color: #9394fe;
+}
+
+html {
+  width: 300px;
+  min-height: 300px;
+  padding: 15px;
+
+  background-color: var(--palette-background-color);
+}
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+h1 {
+  color: var(--palette-font-color);
+  text-shadow: 4px 1px 5px var(--palette-highlight-color);
+}
+
+h3 {
+  color: var(--palette-font-color);
+  text-shadow: 2px 1px 5px var(--palette-highlight-color);
+}
+
+h1, h3 {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#simple-pastebin {
+  width: calc(100% - 10px);
+  min-height: 300px;
+
+  resize: none;
+
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  border: 2px solid var(--palette-border-color);
+  border-radius: 5px;
+
+  font-size: 1.25em;
+}
