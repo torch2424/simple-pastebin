@@ -2,7 +2,7 @@
 
 It's literally just a <textarea>, that saves to localStorage. Paste stuff, and it automatically saves as you paste/type!
 
-[Screenshot of chrome extension](./assets/chromStore/tile440x280.png)
+![Screenshot of chrome extension](./assets/chromStore/tile440x280.png)
 
 ## Features
 
