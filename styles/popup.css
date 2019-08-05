@@ -21,14 +21,41 @@ body {
   width: 100%;
 }
 
+@keyframes walk {
+  from { transform: translate(-100px); }
+  to   { transform: translate(400px); }
+}
+
+@keyframes walk-flipped {
+  from { transform: translate(-100px) scaleX(-1); }
+  to   { transform: translate(400px) scaleX(-1); }
+}
+
+
+.walking {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+
+  z-index: -1;
+
+  height: 25px;
+
+  animation: walk 10s linear infinite;
+}
+
+.walking.horizontal-flip {
+  animation: walk-flipped 10s linear infinite;
+}
+
 h1 {
   color: var(--palette-font-color);
-  text-shadow: 4px 1px 5px var(--palette-highlight-color);
+  text-shadow: 2px 1px 5px var(--palette-highlight-color);
 }
 
 h3 {
   color: var(--palette-font-color);
-  text-shadow: 2px 1px 5px var(--palette-highlight-color);
+  text-shadow: 1px 1px 5px var(--palette-highlight-color);
 }
 
 h1, h3 {
