@@ -1,6 +1,6 @@
 # simple-pastebin
 
-A Chrome Extension that is literally just a <textarea>, that saves to localStorage. Paste stuff, and it automatically saves as you paste/type!
+A Chrome Extension that is literally just a <textarea>, that saves to localStorage. Paste stuff, and it automatically saves as you paste/type! 📋
 
 ![Screenshot of chrome extension](./assets/chromeStore/tile440x280.png)
 
