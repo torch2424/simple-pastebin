@@ -22,15 +22,22 @@ body {
 }
 
 @keyframes walk {
-  from { transform: translate(-100px); }
-  to   { transform: translate(400px); }
+  from {
+    transform: translate(-100px);
+  }
+  to {
+    transform: translate(400px);
+  }
 }
 
 @keyframes walk-flipped {
-  from { transform: translate(-100px) scaleX(-1); }
-  to   { transform: translate(400px) scaleX(-1); }
+  from {
+    transform: translate(-100px) scaleX(-1);
+  }
+  to {
+    transform: translate(400px) scaleX(-1);
+  }
 }
-
 
 .walking {
   position: absolute;
@@ -58,7 +65,8 @@ h3 {
   text-shadow: 1px 1px 5px var(--palette-highlight-color);
 }
 
-h1, h3 {
+h1,
+h3 {
   margin-left: auto;
   margin-right: auto;
   text-align: center;

@@ -1,11 +1,15 @@
 {
   "name": "simple-pastebin",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "A Chrome Extension that is literally just a <textarea>, that saves to localStorage. Paste stuff, and it automatically saves as you paste/type!",
   "main": "index.js",
   "scripts": {
-    "deploy": "npx np --no-publish --no-tests",
-    "build": "npx bestzip release.zip manifest.json popup.html styles/* styles/**/* js/* js/**/* assets/* assets/**/*"
+    "lint": "prettier . --write",
+    "build": "npx bestzip release.zip manifest.json popup.html styles/* styles/**/* js/* js/**/* assets/* assets/**/*",
+    "deploy": "npx np --no-publish --no-tests"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
   },
   "files": [
     "release.zip"
@@ -22,6 +26,9 @@
   "homepage": "https://github.com/torch2424/simple-pastebin#readme",
   "devDependencies": {
     "bestzip": "^2.1.7",
-    "np": "^5.0.3"
+    "husky": "^9.1.7",
+    "lint-staged": "^16.1.2",
+    "np": "^5.0.3",
+    "prettier": "3.6.2"
   }
 }
