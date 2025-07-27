@@ -1,7 +1,7 @@
 {
   "name": "Simple Pastebin",
   "description": "Paste stuff, and it automatically saves as you paste/type!",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "manifest_version": 3,
   "action": {
     "default_popup": "popup.html",
